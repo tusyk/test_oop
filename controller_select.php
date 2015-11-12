@@ -8,7 +8,7 @@ $_select_class = new ajaxSelect();
 $i=$_GET['case'];
 switch ($i) {
     case 0:
-		//index main page content infokl
+		//index main page content info
 	    define('_item_id', 11);		
         echo json_encode($_select_class->homeSelect());
         break;
