@@ -1,7 +1,7 @@
 
 <?php
 // define a class
-//11114hkhu
+
 class WidgetFactory
 {
   var $oink = 'moo';
