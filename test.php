@@ -2,6 +2,8 @@
 <?php
 // define a class
 
+//11
+
 class WidgetFactory
 {
   var $oink = 'moo';

@@ -4,7 +4,7 @@
 class connect
 {
  
-  public function connect_mysqli() {
+  protected function connect_mysqli() {
   $dblocation = "localhost";
   $dbname = "locksmith";
   $dbuser = "root";

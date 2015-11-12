@@ -5,12 +5,11 @@ require_once('model_select.php');
 // create a new object or several object from different classes
 $_select_class = new ajaxSelect();
 
-
 $i=$_GET['case'];
 switch ($i) {
     case 0:
 		//index main page content info
-	    define('_item_id', 11);
+	    define('_item_id', 11);		
         echo json_encode($_select_class->homeSelect());
         break;
 	case 1:
